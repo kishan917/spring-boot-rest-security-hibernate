@@ -34,8 +34,11 @@ public class WelcomeController {
 				+ "		username: admin, password: admin, role:AdminRole</br>\r\n"
 				+ "		username: user, password: user, role:UserRole</br>\r\n";
 		String logout = "</br></br><hr><a href=\"/logout\" > Logout </a></br><hr>";
+		String gitHubLink = "</br></br></br>"
+				+ "<a href=\"https://github.com/kishan917/spring-boot-rest-security-hibernate\" > View Source Code </a>"
+				+ "</br></br><hr>";
 		
-		return "".concat(welcome).concat(quote).concat(manageEmployees).concat(userDetail).concat(logout);
+		return "".concat(welcome).concat(quote).concat(manageEmployees).concat(userDetail).concat(logout).concat(gitHubLink);
 	}
 	
 	@GetMapping("/getRandomQuote")
