@@ -7,11 +7,11 @@ Project to practice spring boot and hibernate
 
 
 ## Clone and run project
-1. git clone https://github.com/kishan917/spring-boot-rest-security-hibernate.git
-2. cd spring-boot-rest-security-hibernate
-3. mvn package
-4. cd target
-5. java -jar spring-boot-rest-security-hibernate-1.0.jar
+1. `git clone https://github.com/kishan917/spring-boot-rest-security-hibernate.git`
+2. `cd spring-boot-rest-security-hibernate`
+3. `mvn package`
+4. `cd target`
+5. `java -jar spring-boot-rest-security-hibernate-1.0.jar`
 
 
 ## Access application
@@ -28,9 +28,9 @@ Project to practice spring boot and hibernate
 ## Access embedded H2 database 
 1. Hit http://localhost:9094/h2 in any browser to access H2 database
 2. Enter following DB details:
-3. Setting Name: Generic H2 (Embedded)
-4. Driver Class: org.h2.Driver
-5. JDBC URL: jdbc:h2:file:./H2DB_Storage
-6. User Name: sa
-7. Password:
-8. Click connect
+  * Setting Name: Generic H2 (Embedded)
+  * Driver Class: org.h2.Driver
+  * JDBC URL: jdbc:h2:file:./H2DB_Storage
+  * User Name: sa
+  * Password: [Blank]
+3. Click connect
