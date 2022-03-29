@@ -28,12 +28,12 @@ public class WelcomeController {
 	public String welcomePage() {
 		
 		String welcome = "Welcome to EmployeeController !!";
-		String quote = "</br></br><hr><a href=\"/api/getRandomQuote\" > Thought of the Day </a>";
-		String manageEmployees = "</br></br><hr><a href=\"/api/admin/help\" > Manage Employee </a>";
+		String quote = "</br></br><hr><a href=\"/getRandomQuote\" > Thought of the Day </a>";
+		String manageEmployees = "</br></br><hr><a href=\"/admin/help\" > Manage Employee </a>";
 		String userDetail = "</br></br>Sample user accounts: </br>"
 				+ "		username: admin, password: admin, role:AdminRole</br>\r\n"
 				+ "		username: user, password: user, role:UserRole</br>\r\n";
-		String logout = "</br></br><hr><a href=\"/api/logout\" > Logout </a></br><hr>";
+		String logout = "</br></br><hr><a href=\"/logout\" > Logout </a></br><hr>";
 		
 		return "".concat(welcome).concat(quote).concat(manageEmployees).concat(userDetail).concat(logout);
 	}
