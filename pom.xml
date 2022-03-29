@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.kishan.springboot</groupId>
-	<artifactId>testapis2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>testapis2</name>
+	<artifactId>spring-boot-rest-security-hibernate</artifactId>
+	<version>1.0</version>
+	<name>spring-boot-rest-security-hibernate</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
