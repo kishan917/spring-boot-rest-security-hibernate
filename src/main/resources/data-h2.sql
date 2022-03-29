@@ -1,0 +1,1 @@
+insert into table_h2(name_h2) values('value_h2');
